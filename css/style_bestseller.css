@@ -51,7 +51,7 @@ body{
 
 
 @media (min-width: 900px){
-.photo{
+  .owl-carousel .photo {
     height: 650px;
     width: auto;
 }
@@ -96,10 +96,12 @@ font-size: 3.4rem;
 }
 
 @media (min-width: 576px){
-.photo{
-    height: 450px;
+
+    .owl-carousel .photo {
+    height: 400px;
     width: auto;
 }
+
 .line{
     width: 100%;
     height: 2.5%;
