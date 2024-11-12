@@ -1,0 +1,285 @@
+ .owl-carousel .owl-theme {
+        background: rgba(226, 214, 214, 0.8);
+        padding: 1rem;
+      }
+body{
+    color: rgba(235, 228, 216, 1);
+}
+.global-photo {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    position: relative;
+}
+.ornament{
+    height: auto;
+    width: 100%;
+}
+.txt{
+    text-align: center;
+}
+.photo{
+    height: 750px;
+    width: auto;
+}
+.line{
+      width: 100%;
+    height: 2.5%;
+}
+
+.about-sirena-container {
+    display: flex;
+    align-items: center; /* Вирівнює зображення і текст по вертикалі */
+    gap: 20px; /* Відступ між зображенням і текстом */
+    padding: 20px;
+}
+
+.alina-video{
+    border-radius: 15px; /* Округлені кути */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Тінь для об’єму */
+}
+
+.block-under-photo{
+    display: flex;
+    align-items: center; /* Вирівнює зображення і текст по вертикалі */
+    gap: 20px; /* Відступ між зображенням і текстом */
+    padding: 20px;
+}
+.more-container{
+    flex: 1;
+}
+
+
+@media (min-width: 900px){
+.photo{
+    height: 650px;
+    width: auto;
+}
+.line{
+    width: 100%;
+    height: 2.5%;
+}
+.alina-video {
+    height: 700px;
+    width: auto;
+}
+
+.text_about_sirena {
+    color: rgba(235, 228, 216, 1); /* Колір тексту */
+}
+
+.text_about_sirena h1 {
+    font-size: 5rem; /* Розмір заголовка */
+    margin-bottom: 10px;
+}
+.text_about_heaven h1 {
+    font-size: 5rem; /* Розмір заголовка */
+    margin-bottom: 10px;
+}
+
+.text_about_sirena p {
+    font-size: 3rem; /* Розмір тексту */
+    line-height: 2; /* Інтерліньяж для кращої читабельності */
+}
+.text_about_heaven p {
+    font-size: 3rem; /* Розмір заголовка */
+    margin-bottom: 10px;
+}
+
+.more-container h2{
+font-size: 3.4rem;
+}
+.description-container h2{
+font-size: 3.4rem;
+}
+
+}
+
+@media (min-width: 576px){
+.photo{
+    height: 450px;
+    width: auto;
+}
+.line{
+    width: 100%;
+    height: 2.5%;
+}
+.alina-video {
+    height: 700px;
+    width: auto;
+}
+
+.text_about_sirena {
+    color: rgba(235, 228, 216, 1); /* Колір тексту */
+}
+
+.text_about_sirena h1 {
+    font-size: 3.5rem; /* Розмір заголовка */
+    margin-bottom: 10px;
+}
+.text_about_heaven h1 {
+    font-size: 3.5rem; /* Розмір заголовка */
+    margin-bottom: 10px;
+}
+
+
+.text_about_sirena p {
+    font-size: 2rem; /* Розмір тексту */
+    line-height: 1.5; /* Інтерліньяж для кращої читабельності */
+}
+.text_about_heaven p {
+    font-size: 2rem; /* Розмір тексту */
+    line-height: 1.5;
+}
+
+.more-container h2{
+font-size: 2.2rem;
+}
+.description-container h2{
+font-size: 2.2rem;
+}
+}
+
+
+@media (max-width: 576px) {
+   
+    .photo{
+    height: 180px;
+    width: auto;
+}
+.line{
+    width: 100%;
+    max-width: 576px;
+    height: 1.5%;
+}
+.alina-video {
+     height: 350px;
+    width: auto;
+}
+
+.text_about_sirena {
+    /* Займає залишковий простір поруч із зображенням */
+    color: rgba(235, 228, 216, 1); /* Колір тексту */
+}
+
+.text_about_sirena h1 {
+    font-size: 1.5rem; /* Розмір заголовка */
+    margin-bottom: 10px;
+}
+.text_about_heaven p {
+    font-size: 1.5rem; /* Розмір заголовка */
+    margin-bottom: 10px;
+}
+
+.text_about_sirena p {
+    font-size: 0.5rem; /* Розмір тексту */
+    line-height: 1.5; /* Інтерліньяж для кращої читабельності */
+}
+.text_about_heaven p {
+    font-size: 0.5rem; /* Розмір тексту */
+    line-height: 1.5;
+}
+
+.more-container h2{
+font-size: 0.66rem;
+}
+.description-container h2{
+font-size: 0.66rem;
+}
+}
+
+
+
+  .modal {
+            display: none; /* приховуємо вікно за замовчуванням */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* напівпрозорий фон */
+            overflow: auto;
+        }
+        
+        .modal-content {
+            position: relative;
+            margin: 5% auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 576px;
+            background-color: rgba(33, 21, 5, 0);
+            border-radius: 8px;
+        }
+        .modal-content h2 {
+            color: rgba(235, 228, 216, 1);
+            font-size: 3 rem;
+
+    }
+    .modal-content p {
+            color: rgba(235, 228, 216, 1);
+            font-size: 1.5 rem;
+
+    }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            color: rgba(235, 228, 216, 1);
+        }
+
+        .video-blur-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .arina-video, .sirena-photo {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Стилі для кнопки "Дізнатися більше" */
+        .open-modal-text h2 {
+            cursor: pointer;
+            color: rgba(235, 228, 216, 1);
+            text-decoration: underline;
+        }
+
+/* Стиль для модального вікна зображення */
+.image-modal {
+    display: none; /* Сховане за замовчуванням */
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Чорний фон із прозорістю */
+}
+
+/* Стиль для зображення всередині модального вікна */
+.modal-image-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+/* Стиль для кнопки закриття модального вікна */
+.close-image-modal {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}

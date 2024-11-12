@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "AmaticSC-Bold";
+
+  src: url('../fonts/AmaticSC-Bold.ttf');
+}
+
+@font-face {
+  font-family: "AmaticSC-Regular";
+
+  src: url('../fonts/AmaticSC-Regular.ttf');
+}
+
+h1{
+  font-family: AmaticSC-Bold;
+}
+
+h2{
+  font-family: AmaticSC-Regular;
+}
+.navbar{
+  font-family: AmaticSC-Bold;
+}
+p{
+  font-family: AmaticSC-Bold;
+}

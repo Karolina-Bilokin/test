@@ -1,0 +1,93 @@
+  body{
+  background-color: rgba(33, 21, 5, 1);
+  margin: 0;
+  overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.menu-icon {
+    display: block;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: rgba(246, 234, 201, 1);
+    z-index: 55;
+}
+
+
+/* Стиль меню */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    right: -80%; /* Початкове положення за межами екрана */
+    height: 100%;
+    width: 250px;
+    max-width: 80%; /* Обмеження ширини */
+    background-color: rgba(33, 21, 5, 0.95);
+    padding: 40px 20px;
+    transition: right 0.4s ease; /* Плавний ефект анімації */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    overflow-y: auto;
+    border-radius: 0 8px 8px 0;
+}
+
+.menu-container.active {
+    right: 0;
+}
+
+.menu-container a {
+    color: rgba(246, 234, 201, 1);
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.menu-container a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Стиль для великих екранів */
+@media (min-width: 900px) {
+    .menu-container {
+        flex-direction: row;
+        position: relative;
+        right: 0;
+        top: unset;
+        height: auto;
+        width: auto;
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .menu-container a {
+        font-size: 4rem;
+        margin: 0 15px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+   /* Приховує елемент на великих екранах */
+@media (min-width: 769px) {
+    .only-mobile {
+        display: none;
+    }
+}
