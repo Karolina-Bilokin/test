@@ -1,5 +1,5 @@
   body{
-  background-color: #140C01;
+  background-color: rgba(33, 21, 5, 1);
   margin: 0;
   overflow-x: hidden;
 }
@@ -63,6 +63,7 @@
 
 /* Стиль для великих екранів */
 @media (min-width: 900px) {
+
     .menu-container {
         flex-direction: row;
         position: relative;
@@ -90,4 +91,8 @@
     .only-mobile {
         display: none;
     }
+}
+@media (max-width: 769px) {
+body{
+  background-color: #140C01;}
 }
