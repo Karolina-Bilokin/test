@@ -87,12 +87,17 @@
     }
 }
    /* Приховує елемент на великих екранах */
-@media (min-width: 769px) {
+@media (min-width: 1100px) {
     .only-mobile {
         display: none;
     }
 }
+
+
 @media (max-width: 769px) {
 body{
   background-color: #140C01;}
+
 }
+
+

@@ -4,26 +4,7 @@
     }
 
 
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    autoWidth:true,
-    autoplay: true,
-    autoplayTimeout:1000,
-    margin:10,
-    nav:false,
-    autoplayHoverPause: true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-});
+
     // Функція для відкриття модального вікна
 function openModal(modalId) {
     document.getElementById(modalId).style.display = "block";
