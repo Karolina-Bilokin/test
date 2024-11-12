@@ -5,23 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cielo Swim</title>
 
-     <link rel="stylesheet" type="text/css" href="css/style_size.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/style_bestseller.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/plugin.css">
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style_size.css">
+
+      <!--owlcarousel-->
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <!--owlcarousel-->
+
 </head>
 <body>
-
+    
     <!-- Верхня навігаційна панель -->
     <div class="navbar">
         <div class="logo-container">
-            <img class="global-logo" src="img/7-1.png" alt="Логотип Cielo Swim">
+            <img class="global-logo" src="img/11.png" alt="Логотип Cielo Swim">
         </div>
         <div class="menu-container">
             <a href="bestseller.html">Bestseller</a>
             <a href="size-chart.html">Розмірна сітка</a>
             <a href="contact.html">Контакти</a>
             <a href="index.html">Про бренд</a>
+            <a href="https://www.instagram.com/cieloswimwear.ua" target="_blank" class="only-mobile">Instagram: cieloswimwear.ua</a>
         </div>
 
         <!-- Іконка випадаючого меню -->
@@ -30,12 +39,29 @@
         </div>
     </div>
 
-<!--
-    <div>
-        <img class="global-photo" src="img/1.png">
-    </div>
--->
+
+
     <script src="js/script.js"></script>
     <script src="js/jquery.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+     <!-- Owlcarousel -->
+        <script>
+            $('.owl-carousel').owlCarousel({
+              loop: true,
+              dots: false,
+              autoWidth: false,
+              autoplay: true,
+              autoplayTimeout: 2500,
+              margin: 10,
+              nav: false,
+              autoplayHoverPause: false,
+              responsive: {
+                0: { items: 3 },
+                600: { items: 4 },
+                1000: { items: 4 }
+              }
+            });
+        </script>
+        <!-- End of Owlcarousel -->
 </body>
 </html>
