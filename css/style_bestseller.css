@@ -105,7 +105,7 @@ font-size: 3.4rem;
 @media (min-width: 576px){
 
     .owl-carousel .photo {
-    height: 400px;
+    height: 450px;
     width: auto;
 }
 
@@ -154,7 +154,7 @@ font-size: 2.2rem;
 @media (max-width: 576px) {
    
     .photo{
-    height: 180px;
+    height: 250px;
     width: auto;
 }
 .line{
