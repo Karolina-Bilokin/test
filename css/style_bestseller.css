@@ -2,11 +2,9 @@
         background: rgba(226, 214, 214, 0.8);
         padding: 1rem;
       }
-  body {
-  background-color: rgba(202, 202, 198, 1);
-  color: rgba(149, 129, 115, 1);
+body{
+    color: rgba(235, 228, 216, 1);
 }
-
 .global-photo {
     width: 100%;
     height: auto;
