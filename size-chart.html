@@ -97,28 +97,51 @@
     </div>
 
 
+ <div class="youtube-section">
+        <h2>Відео туторіал</h2>
+        <div class="video-container">
+            <iframe 
+                width="100%" 
+                height="315" 
+                src="https://youtu.be/-4fDrEysB2g?si=zSe87od8weL7XBlF" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
 
+<div class="instagram-section">
+        <h2>Останні публікації в Instagram</h2>
+        <div class="instagram-posts">
+            <!-- Пост 1 -->
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CuWG2KWsztP/" data-instgrm-version="14" style="max-width: 540px; margin: 20px auto;">
+                <a href="https://www.instagram.com/p/CuWG2KWsztP/" target="_blank"></a>
+            </blockquote>
+
+            <!-- Пост 2 -->
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CuAUNnyM-E5/" data-instgrm-version="14" style="max-width: 540px; margin: 20px auto;">
+                <a href="https://www.instagram.com/p/CuAUNnyM-E5/" target="_blank"></a>
+            </blockquote>
+        </div>
+    </div>
+
+
+ 
     <script src="js/script.js"></script>
     <script src="js/jquery.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
-     <!-- Owlcarousel -->
-        <script>
-            $('.owl-carousel').owlCarousel({
-              loop: true,
-              dots: false,
-              autoWidth: false,
-              autoplay: true,
-              autoplayTimeout: 2500,
-              margin: 10,
-              nav: false,
-              autoplayHoverPause: false,
-              responsive: {
-                0: { items: 3 },
-                600: { items: 4 },
-                1000: { items: 4 }
-              }
-            });
-        </script>
-        <!-- End of Owlcarousel -->
+
+<script async src="https://www.instagram.com/embed.js"></script>
+<script>
+    window.addEventListener('load', function() {
+        if (window.instgrm) {
+            window.instgrm.Embeds.process();
+        }
+    });
+</script>
+    
+       
 </body>
 </html>
