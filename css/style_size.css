@@ -296,3 +296,43 @@
         max-width: 45%; /* Обмеження ширини поста */
     }
 }
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 співвідношення */
+    height: 0;
+    overflow: hidden;
+    width: 100%; /* Ширина за замовчуванням */
+    max-width: 100%; /* Для мобільних пристроїв */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .video-container {
+        max-width: 65%; /* Для не мобільних пристроїв */
+        margin: 0 auto; /* Центрування відео */
+    }
+}
+.instagram-section .instagram-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрує пости по горизонталі */
+    gap: 20px;
+}
+
+@media (min-width: 900px) {
+    .instagram-section .instagram-posts {
+        flex-direction: row; /* Пости розташовуються в ряд */
+        justify-content: center;
+    }
+    .instagram-section blockquote {
+        max-width: 45%; /* Обмеження ширини поста */
+    }
+}
