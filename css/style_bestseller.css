@@ -31,7 +31,6 @@ body {
 .line {
     width: 100%;
     height: 2.5%;
-    max-width: 2500px;
 }
 
 .about-sirena-container, .block-under-photo {
@@ -55,11 +54,6 @@ body {
     .owl-carousel .photo {
         height: 275px;
         width: auto;
-    }
-
-    .line {
-        width: 100%;
-        height: 2.5%;
     }
 
     .alina-video {
@@ -86,12 +80,6 @@ body {
     .owl-carousel .photo {
         height: 400px;
         width: auto;
-    }
-
-    .line {
-        width: 100%;
-        height: 2.5%;
-        max-width: 1500px;
     }
 
     .alina-video {
@@ -127,11 +115,6 @@ body {
 
 @media (min-width: 1000px) {
 
-    .line {
-        width: 100%;
-        height: 2.5%;
-        max-width: 2500px;
-    }
 
     .alina-video {
         height: 700px;
@@ -172,11 +155,6 @@ body {
 @media (max-width: 575px) {
     
 
-    .line {
-        width: 100%;
-        max-width: 576px;
-        height: 1.5%;
-    }
 
     .alina-video {
         height: 350px;
