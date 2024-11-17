@@ -1,204 +1,203 @@
- .owl-carousel .owl-theme {
-        background: rgba(226, 214, 214, 0.8);
-        padding: 1rem;
-      }
-body{
+.owl-carousel .owl-theme {
+    background: rgba(226, 214, 214, 0.8);
+    padding: 1rem;
+}
+
+body {
     color: rgba(235, 228, 216, 1);
 }
+
 .global-photo {
     width: 100%;
     height: auto;
     margin-top: 10px;
     position: relative;
 }
-.ornament{
+
+.ornament {
     height: auto;
     width: 100%;
 }
-.txt{
+
+.txt {
     text-align: center;
 }
-.photo{
-    height: 750px;
+
+.photo {
+    height: 550px;
     width: auto;
 }
-.line{
-      width: 100%;
+
+.line {
+    width: 100%;
     height: 2.5%;
     max-width: 2500px;
 }
 
-.about-sirena-container {
+.about-sirena-container, .block-under-photo {
     display: flex;
-    align-items: center; /* Вирівнює зображення і текст по вертикалі */
-    gap: 20px; /* Відступ між зображенням і текстом */
+    align-items: center;
+    gap: 20px;
     padding: 20px;
 }
 
-.alina-video{
-    border-radius: 15px; /* Округлені кути */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Тінь для об’єму */
+.alina-video {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-.block-under-photo{
-    display: flex;
-    align-items: center; /* Вирівнює зображення і текст по вертикалі */
-    gap: 20px; /* Відступ між зображенням і текстом */
-    padding: 20px;
-}
-.more-container{
+.more-container {
     flex: 1;
 }
 
 
-@media (min-width: 900px){
-  .owl-carousel .photo {
-    height: 650px;
-    width: auto;
-}
-.line{
-    width: 100%;
-    height: 2.5%;
-     max-width: 1500px;
-}
-.alina-video {
-    height: 700px;
-    width: auto;
-}
-
-.text_about_sirena {
-    color: rgba(235, 228, 216, 1); /* Колір тексту */
-}
-
-.text_about_sirena h1 {
-    font-size: 5rem; /* Розмір заголовка */
-    margin-bottom: 10px;
-}
-.text_about_heaven h1 {
-    font-size: 5rem; /* Розмір заголовка */
-    margin-bottom: 10px;
-}
-
-.text_about_sirena p {
-    font-size: 3rem; /* Розмір тексту */
-    line-height: 2; /* Інтерліньяж для кращої читабельності */
-}
-.text_about_heaven p {
-    font-size: 3rem; /* Розмір заголовка */
-    margin-bottom: 10px;
-}
-
-.more-container h2{
-font-size: 3.4rem;
-}
-.description-container h2{
-font-size: 3.4rem;
-}
-
-}
-
-@media (min-width: 1000px){
-    .line{
-    width: 100%;
-    height: 2.5%;
-    
-}
-}
-@media (min-width: 576px){
-
+@media (min-width: 576px) and (max-width: 799px) {
     .owl-carousel .photo {
-    height: 375px;
-    width: auto;
+        height: 275px;
+        width: auto;
+    }
+
+    .line {
+        width: 100%;
+        height: 2.5%;
+    }
+
+    .alina-video {
+        height: 350px;
+        width: auto;
+    }
+
+    .text_about_sirena h1, .text_about_heaven h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    .text_about_sirena p, .text_about_heaven p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    .more-container h2, .description-container h2 {
+        font-size: 1.5rem;
+    }
 }
 
-.line{
-    width: 100%;
-    height: 2.5%;
-   
-}
-.alina-video {
-    height: 700px;
-    width: auto;
+@media (min-width: 800px) and (max-width: 999px) {
+    .owl-carousel .photo {
+        height: 400px;
+        width: auto;
+    }
+
+    .line {
+        width: 100%;
+        height: 2.5%;
+        max-width: 1500px;
+    }
+
+    .alina-video {
+        height: 700px;
+        width: auto;
+    }
+
+    .text_about_sirena h1, .text_about_heaven h1 {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+
+    .text_about_sirena p, .text_about_heaven p {
+        font-size: 1.5rem;
+        line-height: 1.8;
+    }
+
+    .more-container h2, .description-container h2 {
+        font-size: 1.5rem;
+    }
 }
 
-.text_about_sirena {
-    color: rgba(235, 228, 216, 1); /* Колір тексту */
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .owl-carousel .photo {
+        height: 450px;
+        width: auto;
+    }}
+    @media (min-width: 1301px){
+    . .owl-carousel .photo {
+        height: 550px;
+        width: auto;
+    }}
+
+@media (min-width: 1000px) {
+
+    .line {
+        width: 100%;
+        height: 2.5%;
+        max-width: 2500px;
+    }
+
+    .alina-video {
+        height: 700px;
+        width: auto;
+    }
+
+    .text_about_sirena h1, .text_about_heaven h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .text_about_sirena p, .text_about_heaven p {
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+
+    .more-container h2, .description-container h2 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 400px)
+{
+    .photo {
+        height: 180px;
+        width: auto;
+    }
 }
 
-.text_about_sirena h1 {
-    font-size: 3.5rem; /* Розмір заголовка */
-    margin-bottom: 10px;
-}
-.text_about_heaven h1 {
-    font-size: 3.5rem; /* Розмір заголовка */
-    margin-bottom: 10px;
-}
-
-
-.text_about_sirena p {
-    font-size: 2rem; /* Розмір тексту */
-    line-height: 1.5; /* Інтерліньяж для кращої читабельності */
-}
-.text_about_heaven p {
-    font-size: 2rem; /* Розмір тексту */
-    line-height: 1.5;
-}
-
-.more-container h2{
-font-size: 2.2rem;
-}
-.description-container h2{
-font-size: 2.2rem;
-}
+@media ((min-width: 401px) and (max-width: 575px))
+{
+    .photo {
+        height: 230px;
+        width: auto;
+    }
 }
 
 
-@media (max-width: 576px) {
-   
-    .photo{
-    height: 180px;
-    width: auto;
-}
-.line{
-    width: 100%;
-    max-width: 576px;
-    height: 1.5%;
-}
-.alina-video {
-     height: 350px;
-    width: auto;
+@media (max-width: 575px) {
+    
+
+    .line {
+        width: 100%;
+        max-width: 576px;
+        height: 1.5%;
+    }
+
+    .alina-video {
+        height: 350px;
+        width: auto;
+    }
+
+    .text_about_sirena h1, .text_about_heaven h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .text_about_sirena p, .text_about_heaven p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .more-container h2, .description-container h2 {
+        font-size: 1.2rem;
+    }
 }
 
-.text_about_sirena {
-    /* Займає залишковий простір поруч із зображенням */
-    color: rgba(235, 228, 216, 1); /* Колір тексту */
-}
-
-.text_about_sirena h1 {
-    font-size: 1.5rem; /* Розмір заголовка */
-    margin-bottom: 10px;
-}
-.text_about_heaven p {
-    font-size: 1.5rem; /* Розмір заголовка */
-    margin-bottom: 10px;
-}
-
-.text_about_sirena p {
-    font-size: 0.5rem; /* Розмір тексту */
-    line-height: 1.5; /* Інтерліньяж для кращої читабельності */
-}
-.text_about_heaven p {
-    font-size: 0.5rem; /* Розмір тексту */
-    line-height: 1.5;
-}
-
-.more-container h2{
-font-size: 0.66rem;
-}
-.description-container h2{
-font-size: 0.66rem;
-}
-}
 
 
 
