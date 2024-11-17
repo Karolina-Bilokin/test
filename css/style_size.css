@@ -320,19 +320,26 @@
         margin: 0 auto; /* Центрування відео */
     }
 }
-.instagram-section .instagram-posts {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Центрує пости по горизонталі */
-    gap: 20px;
+
+
+
+
+
+
+
+
+
+.footer {
+    color: white;
+    padding: 10px 0;
 }
 
-@media (min-width: 900px) {
-    .instagram-section .instagram-posts {
-        flex-direction: row; /* Пости розташовуються в ряд */
-        justify-content: center;
-    }
-    .instagram-section blockquote {
-        max-width: 45%; /* Обмеження ширини поста */
-    }
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    border-top: 0.14rem solid rgba(255, 255, 255, 0.3);
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
 }
+
