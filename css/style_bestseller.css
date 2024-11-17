@@ -189,12 +189,12 @@ body {
     }
 
     .text_about_sirena p, .text_about_heaven p {
-        font-size: 1rem;
+        font-size: 0.7rem;
         line-height: 1.5;
     }
 
     .more-container h2, .description-container h2 {
-        font-size: 1.2rem;
+        font-size: 0.7rem;
     }
 }
 
