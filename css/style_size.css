@@ -280,3 +280,19 @@
     text-align: center;
 }
 
+.instagram-section .instagram-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 900px) {
+    .instagram-section .instagram-posts {
+        flex-direction: row; /* Пости розташовуються в ряд */
+        justify-content: center;
+    }
+
+    .instagram-section blockquote {
+        max-width: 45%; /* Обмеження ширини поста */
+    }
+}
