@@ -1,0 +1,17 @@
+
+@media (min-width: 768px) {
+    .global-logo, .menu-container a {
+        animation: fadeInAndScale 2s ease-in-out;
+    }
+
+    @keyframes fadeInAndScale {
+        0% {
+            opacity: 0;
+            transform: scale(0.8);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}
