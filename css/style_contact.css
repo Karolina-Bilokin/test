@@ -11,6 +11,11 @@
 .intro-text h1 {
    font-size: 3rem;
 }
+.social-icon {
+    width: 4.5%;
+    height: 17%;
+}
+
 
 /* Адаптація для смартфонів (480px і менше) */
 @media (max-width: 575px) {

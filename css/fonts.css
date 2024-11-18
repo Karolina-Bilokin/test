@@ -5,9 +5,9 @@
 }
 
 @font-face {
-  font-family: "AmaticSC-Regular";
+  font-family: "Caveat";
 
-  src: url('../fonts/AmaticSC-Regular.ttf');
+  src: url('../fonts/Caveat-Regular.ttf');
 }
 
 h1{
@@ -15,11 +15,12 @@ h1{
 }
 
 h2{
-  font-family: AmaticSC-Regular;
+  font-family:AmaticSC-Bold;
 }
+
 .navbar{
   font-family: AmaticSC-Bold;
 }
 p{
-  font-family: AmaticSC-Bold;
+  font-family: Caveat;
 }
